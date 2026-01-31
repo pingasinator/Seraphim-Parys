@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: "Arial";
+    background-image: url("../background1.png");
+    background-size: 1900px 1100px;
+    color: #d4af37; /* or */
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    background: linear-gradient(to right, #2a1409, #1c0f07);
+    color: #d4af37;
+    position: relative;
+}
+
+/* NAVBAR liste */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR txt*/
+.navbar a {
+    text-decoration: none;
+    color: #d4af37;
+    font-size: 20px;
+    letter-spacing: 1px;
+    z-index: 2;
+}
+
+/* superposition de liens*/
+.navbar a:hover {
+    background-color: lightgoldenrodyellow;
+    color: #2a1409; /* pour contraste */
+}
+
+/* Logo taille */
+.navbar .logo img {
+    width: 180px;
+    height: auto;
+    position: absolute;
+    transform: translate(-50%, -30%);
+}
+
+/* Ligne fine sous la navbar */
+.navbar-bottom {
+    height: 1px;
+    background-color: #d4af37;
+}
+
+/* Texte central sous la ligne */
+.title {
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 10px;
+    margin: 20px 0;
+    color: #d4af37;
+}
+
+/* logo titre */
+.logo {
+    position: absolute; /* centre */
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*place au mid */
+}
+

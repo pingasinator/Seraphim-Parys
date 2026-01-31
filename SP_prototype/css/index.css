@@ -1,0 +1,44 @@
+body {
+    background-image: url("../background1.png");
+    background-size: cover;
+    font-family: Arial;
+
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    border-color: blue;
+    opacity: 0.5;
+}
+
+/* navbar mise en page */
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 10;
+    padding: 10;
+    gap: 70px;
+    text-decoration: none;
+}
+
+/* navbar txt */
+.navbar a {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    transition: background-color 0.5s;
+}
+
+.navbar a:hover {
+    background-color: navajowhite;
+
+}
