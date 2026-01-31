@@ -1,9 +1,8 @@
 body {
     margin: 0;
     font-family: "Arial";
-    background-size: 1900px 1100px;
-    background-image: url("../img/background1.png");
-    color: #bb8c3e;
+    color: white;
+    gap: 0;
 }
 
 /* NAVBAR */
@@ -14,7 +13,7 @@ body {
     padding: 40px 60px;
     background: linear-gradient(to right, #2a1409, #1c0f07);
     color: #bb8c3e;
-    position: relative;
+    border-bottom: solid 1px #bb8c3e;
 }
 
 /* NAVBAR liste */
@@ -39,19 +38,19 @@ a {
     background-image: url("../img/background1.png");
     min-height: 1120px;
     background-repeat: no-repeat;
-    background-size: 1900px 1120px;
-    width: 1900px;
-    border-top: solid 1px;
+    background-size: 100%;
+    border: none;
+    border-top: solid 1px #bb8c3e;
 }
 
 /* superposition de liens*/
-.navbar a:hover {
+a:hover {
     background-color: lightgoldenrodyellow;
     color: #2a1409; /* pour contraste */
 }
 
 /* Logo taille */
-.navbar .logo img {
+.navbar > .logo >  img {
     width: 180px;
     height: auto;
     position: absolute;
@@ -75,10 +74,8 @@ a {
 
 /* logo titre */
 .logo {
-    position: absolute; /* centre */
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%); /*place au mid */
+
+
 }
 
 footer >div{
@@ -91,5 +88,5 @@ footer {
     padding: 40px 60px;
     bottom: 0;
     background: linear-gradient(to right, #2a1409, #1c0f07);
-    border-top: solid 1px;
+    border-top: solid 1px #bb8c3e;
 }
