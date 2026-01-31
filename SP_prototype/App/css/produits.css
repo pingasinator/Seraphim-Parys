@@ -1,0 +1,11 @@
+.produit >img{
+    width: 300px;
+    margin: 10px;
+}
+
+.produits {
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+}
